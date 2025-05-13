@@ -1,4 +1,5 @@
-html {
+html,
+body {
     padding: 0;
 
 }
@@ -9,17 +10,18 @@ html {
     padding: 64px 48px;
     align-items: flex-start;
     gap: 32px;
-
+    flex-wrap: wrap;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
+}
 
-
+.items:first-child {
+    margin-left: 82px;
 }
 
 h1 {
