@@ -81,8 +81,19 @@ p {
     h1 {
         width: 218px;
     }
-
-
-
 }
 
+@media screen and (max-width: 480px) {
+    .items{
+        width: 405px;
+        padding: 32px 16px;
+        gap: 40px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .items:first-child {
+        margin-left: 0;
+    }
+
+}
