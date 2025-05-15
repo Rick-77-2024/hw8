@@ -1,6 +1,7 @@
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
 
     .items {
+		    padding: 64px 0;
         width: 720px;
         flex-wrap: wrap;
         gap: 24px;
