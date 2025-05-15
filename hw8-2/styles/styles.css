@@ -1,13 +1,43 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>hw8-1</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/styles-769.css">
-    <link rel="stylesheet" href="styles/styles-480.css">
-</head>
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 1344px;
+}
+
+.items {
+    padding: 64px 48px;
+    margin: 0 auto;
+    font-family: "Inter", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 271px;
+}
+
+h1 {
+    color: #161543;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    color: #7687A1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+
 
